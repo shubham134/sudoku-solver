@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/basic.css">
+    <title>Sudoku</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/validate.js"></script>
+</head>
+<header>
+    <div class="header">
+        <div class="title">
+            <img class="title-icon" src="img/sudoku-icon.jpg" height="40" width="40">
+            <h2 class="title-name">Sudoku</h2>
+        </div>
+    </div>
+</header>
+<body>
+    <hr color="#007FFF">
+    <div class="main">
+        <div class="container-grid">
+            <b id="set" style="color: #666666; font-size: 20px;"></b></br>
+            <div class="grid">
+                <!-- create grid in validate.js -->
+            </div>
+        </div>
+        <div class="button">
+            <button class="solve-btn" id="solve">SOLVE</button>
+            <button class="load-btn" id="load">NEW</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::selection {
+    background: none;
+}
+
+.header {
+    padding: 0px;
+    cursor: default;
+}
+
+.title {
+    display: flex;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.title-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #007FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.main {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.container-grid {
+    padding-bottom: 25px;
+}
+
+.button {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .grid-border {
+    border-collapse: collapse;
+    height: auto;
+    width: auto;
+    pointer-events: none;
+    opacity: 99%;
+} */
+
+.grid {
+    border: 3px solid #007FFF;
+}
+
+.small-box {
+    border: 1px solid #007FFF;
+}
+
+.cell {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    color: #646464;
+    text-align: center;
+    font-size: 20px;
+    caret-color: transparent;
+}
+
+.cell:hover {
+    background-color: #bed7df;
+    cursor: pointer;
+}
+
+.cell:focus {
+    outline: none;
+    background-color: #40aed3;
+}
+
+.solve-btn {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border: 0px;
+    color: #ffffff;
+    width: 170px;
+    text-align: center;
+    background-color: #0ca32d;
+
+}
+
+.solve-btn:hover {
+    background-color: #0a8525;
+}
+
+.solve-btn:focus {
+    outline: none;
+}
+
+.load-btn {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border: 0px;
+    color: #ffffff;
+    width: 170px;
+    text-align: center;
+    background-color: #007FFF;
+
+}
+
+.load-btn:hover {
+    background-color: #015bb6;
+}
+
+.load-btn:focus {
+    outline: none;
+}
