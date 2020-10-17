@@ -1,11 +1,12 @@
 # sudoku-solver
-# Sudoku
 
 This will allow one to play sudoku.
 It also has an algorithm to solve it.
 
-# Unsolved
+Unsolved
+
 ![alt text](https://github.com/shubham134/sudoku-solver/blob/master/sudoku-screenshot-unsolved.PNG)
 
-# Solved
+Solved
+
 ![alt text](https://github.com/shubham134/sudoku-solver/blob/master/sudoku-screenshot-solved.PNG)
